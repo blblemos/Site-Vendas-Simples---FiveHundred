@@ -1,0 +1,154 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+    font-family: oswald ,sans-serif;
+}
+
+@font-face{
+    src: url('../FONT/Oswald-VariableFont_wght.ttf');
+    font-family: oswald;
+}
+
+.clear{
+    clear: both;
+}
+
+html, body{
+    height: 100%;
+    padding: 0 0;
+    background-color:white;
+}
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/*Inicio header menu*/
+header{
+    padding: 5px 2%;
+    height: 110px;
+    background-color: #2F1780;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 130px;
+    height: 130px;
+    margin-top: -25px;
+}
+
+.menu-desk{
+    float: right;
+    position: relative;
+    top: 40px;
+}
+
+.menu-desk ul{
+    list-style-type: none;
+} 
+
+.menu-desk ul li{
+    float: left;
+    font-size: 26px;
+    padding: 0 30px;
+    font-style: italic;
+}
+
+.menu-desk ul li a{
+    color: #997AFF;
+    text-decoration: none;
+}
+/*Fim header menu*/
+
+/*Inicio section banner*/
+
+.banner{
+    width: 100%;
+    max-width: 2000px;
+    max-height: 900px;
+    height: calc(100vh - 110px);
+    background-color: #997AFF;
+    background-image: url(../IMG/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin: 0 auto;
+    padding: 90px 40px;
+}
+
+.container-skew1{
+    position: relative;
+    width: 40%;
+    min-width: 500px;
+    padding-top: 30%;
+    min-height: 350px;
+}
+
+.container-skew{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; 
+    text-transform: uppercase;
+}
+
+.skew {
+    width: 80%;
+    min-width: 200px;
+    height: 70px;
+    color: #997AFF;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #2F1780;
+    font-size: 18px;
+    -webkit-transform: skew(30deg);
+        -ms-transform: skew(30deg);
+            transform: skew(30deg); /* SKEW da div*/
+  }
+
+  .skew:nth-of-type(2){
+      width: 60%;
+      min-width: 170px;
+  }
+
+  .skew:nth-of-type(3){
+    width: 40%;
+    min-width: 140px;
+}
+
+  .p-skew {
+    padding: 10px;
+    -webkit-transform: skew(-30deg);
+        -ms-transform: skew(-30deg);
+            transform: skew(-30deg); /* SKEW inverso para o texto não inclinar */
+  }
+/*Fim section banner*/
+
+/*Inicio Responsivo 768px*/
+@media screen and (max-width: 768px){
+
+    .menu-desk{
+        display: none;
+    }
+
+    .banner{
+        background-size: 100% 100%;
+        background-position: center bottom;
+        padding: 80px 10px ;
+    }
+
+    .container-skew1{
+        min-width: 400px;
+    }
+
+    .skew{
+        font-size: 14px;
+    }
+}
+/*Fim Responsivo 768px*/
