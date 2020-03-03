@@ -188,7 +188,7 @@ header{
     width: 100%;
 }
 
-.sites-destaque .line-titulo h2{
+.line-titulo h2{
     position: relative;
     background-color: white;
     display: inline-block;
@@ -312,6 +312,7 @@ header{
     margin-top: 10px;
     margin-right: 2%;
     border-bottom: 5px solid #B21E1E;
+    cursor: pointer;
 }
 
 .half-2{
@@ -354,6 +355,89 @@ header{
 }
 
 /* Fim section sercicos-descricao*/
+
+/*Inicio section contato*/
+.contato{
+    padding: 90px 2%;
+}
+
+form{
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.input-wraper{
+    float: left;
+    padding: 10px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.contato input[type=text],
+input[type=email],
+input[type=tel]{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.contato textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 120px;
+    padding: 15px 8px;
+    resize: none;
+}
+
+.contato input[type=submit]{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+/*Fim section contato*/
+
+/*Inicio Footer*/
+footer{
+    padding: 40px 2%;
+    background-color: #2F1780;
+}
+
+footer nav{
+    float: left;
+}
+
+footer nav ul{
+    list-style-type: none;
+}
+
+footer nav ul li{
+    float: left;
+    font-size: 19px;
+    padding: 0 35px;
+}
+
+footer nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p{
+    float: right;
+    color: white;
+    font-size: 19px;
+}
+/*Fim Footer*/
 
 /*Inicio Responsivo 768px*/
 @media screen and (max-width: 768px){
@@ -411,5 +495,23 @@ header{
         width: 100%;
         padding: 90px 4%;
     }
+
+    .w50{
+        width: 100%;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    .menu-rodape{
+        display: none;
+    }
+
+    footer p{
+        float: none;
+    }
+    
 }
+
 /*Fim Responsivo 768px*/
