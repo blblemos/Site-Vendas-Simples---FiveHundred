@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8">
         <link href="CSS/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" type="image-x/png" href="IMG/logo_transparent.ico"/>
         <meta name="description" content=""/>
         <meta name="keywords" content=""/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0" />
@@ -22,7 +23,7 @@
                     <ul>
                         <li><a href="home.php">Home</a></li>
                         <li><a href="venda.php">Venda</a></li>
-                        <li><a href="#">Sobre</a></li>
+                        <li><a href="sobre.php">Sobre</a></li>
                         <li><a href="#">Contato</a></li>
                     </ul>
                 </nav><!--menu-desk-->

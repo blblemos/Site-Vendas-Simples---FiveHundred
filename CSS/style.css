@@ -59,6 +59,7 @@ header{
     width: 32px;
     background-size: 100% 100%;
     background-image: url(../IMG/menu\ .png);
+    cursor: pointer;
 }
 
 .menu-desk ul{
@@ -243,7 +244,7 @@ header{
 
 .info-site a{
     text-decoration: none;
-    background-color: #EB2D2D;
+    background-color: #2F1780;
     color: white;
     font-size: 16px;
     width: 150px;
@@ -255,7 +256,7 @@ header{
     line-height: 35px;
     display: block;
     margin-top: 10px;
-    border-bottom: 5px solid #B21E1E;
+
 }
 
 /*Fim section sites-destaque*/
@@ -302,7 +303,7 @@ header{
 
 .btn-1{
     text-decoration: none;
-    background-color: #EB2D2D;
+    background-color: #2F1780;
     color: white;
     font-size: 16px;
     width: 150px;
@@ -315,7 +316,6 @@ header{
     display: block;
     margin-top: 10px;
     margin-right: 2%;
-    border-bottom: 5px solid #B21E1E;
     cursor: pointer;
 }
 
@@ -417,9 +417,7 @@ input[type=tel]:focus{
 }
 
 .contato input[type=submit]{
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
+    border:0;
 }
 
 /*Fim section contato*/
@@ -608,6 +606,256 @@ form{
 
 /*Fim section venda(pagina venda)*/
 
+/* Inicio section venda-single(paginas de vendas individuais)*/
+
+.venda-single{
+    padding: 0 2%;
+}
+
+.venda-single .line-titulo{
+    margin-top: 30px;
+}
+
+.venda-single .container{
+    max-width: 1200px;
+    padding: 40px 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.venda-single .info-bread{
+    width: 100%;
+    padding: 20px 0 0 0;
+    text-align: left;
+}
+
+.info-bread a{
+	text-decoration: none;
+    color: #2F1780;
+    text-transform: uppercase;
+}
+
+.info-bread a:last-child{
+	color: #997AFF;
+}
+
+.info-bread span{
+	padding:0 30px;
+}
+
+.venda-single .info-site{
+    width: 60%;
+    position: relative;
+}
+
+.foto-destaque{
+    width: 100%;
+    padding-top: 60%;
+    position: relative;
+    height: 70%;
+}
+
+.foto-destaque img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-galeria{
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 15px;
+    overflow: hidden;
+    height: 25%;
+    margin-top: -10px;
+    margin-left: 0;
+    height: 30%;
+    position: relative;
+}
+
+.nav-galeria-wraper{
+    width: 200% ;
+    overflow: hidden;
+}
+
+.mini-img{
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    float: left;
+    padding-top: calc(((100% / 3) * (100 / 200)) * 0.6);
+    width: calc((100% / 3) * (100 / 200));
+    position: relative;
+    cursor: pointer;
+}
+
+.mini-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mini-img:nth-of-type(1){
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.descricao-site{
+    width: 40%;
+    padding: 10px 20px;
+}
+
+.descricao-site-2{
+    position: relative;
+    margin-top: 50%;
+    transform: translateY(-25%);
+}
+
+.descricao-site h2{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2F1780;
+}
+
+.descricao-site p{
+    margin: 30px 0;
+    color: #2F1780;
+    text-align: justify;
+    height: 200px;
+    overflow-y: scroll;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+}
+
+.descricao-site .btn-1{
+    position: relative;
+    left: calc(100% - 150px);
+}
+
+.info-site .foto-destaque:hover  .arrow-left , .info-site .foto-destaque:hover .arrow-right{
+    display: block;
+}
+
+.foto-destaque .arrow-left{
+    z-index: 99;
+	position: absolute;
+	left: 18px;
+    top: 50%;
+    z-index: 99;
+	cursor: pointer;
+	transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	background-image:url('../IMG/play\ \(1\).png');
+    background-size: 90% 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 32px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.foto-destaque .arrow-right{
+    z-index: 99;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	cursor: pointer;
+	transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	background-image:url('../IMG/play.png');
+	background-size: 90% 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 32px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.nav-galeria .arrow-left{
+    z-index: 99;
+	position: absolute;
+	left: 0;
+    top: 50%;
+    z-index: 99;
+	cursor: pointer;
+	transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	background-image:url('../IMG/play\ \(1\).png');
+    background-size: 90% 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 32px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav-galeria .arrow-right{
+    z-index: 99;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	cursor: pointer;
+	transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	background-image:url('../IMG/play.png');
+	background-size: 90% 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 32px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/* Fim section venda-single(paginas de vendas individuais)*/
+
+/*Inicio section sobre(pagina sobre)*/
+.sobre .container{
+    padding: 30px  2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-img{
+    width: 30%;
+    padding-top: 30%;
+    position: relative;background-color: aqua;
+}
+
+.sobre-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sobre-txt{
+    width: 70%;
+    padding: 5% 5%;
+}
+
+.sobre-txt h2{
+    color: #2F1780;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sobre-txt p{
+    color: #2F1780;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/*Fim section sobre(pagina sobre)*/
+
 /*Inicio Responsivo 768px*/
 @media screen and (max-width: 768px){
 
@@ -702,6 +950,41 @@ form{
     .vitrine-venda{
         float: none;
         width: 100%;
+    }
+
+    .venda-single .container{
+        margin: 0 auto;
+    }
+
+    .venda-single .info-site{
+        width: 100%;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .descricao-site{
+        width: 100%;
+    }
+
+    .descricao-site-2{
+        margin-top: 0;
+        transform: translateY(0);
+    }
+
+    .descricao-site .btn-1{
+
+        left: 0;
+    }
+
+    .sobre-img{
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 80%;
+    }
+
+    .sobre-txt{
+        width: 100%;
+        padding: 40px 0;
     }
 }
 

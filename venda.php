@@ -103,7 +103,7 @@ include 'menu.php';
                     <div class="info-site">
                         <h2>Site Simples - Layout Básico</h2>
                         <p>Site para pequenas empresas com informações mais relevantes e contatos</p>
-                        <a href="#">Mais Detalhes</a>
+                        <a href="Site Simples-Layout Básico.php">Mais Detalhes</a>
                     </div>
                 </div><!--vitrine-destaque-->
 

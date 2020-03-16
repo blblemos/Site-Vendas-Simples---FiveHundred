@@ -9,7 +9,7 @@
                     <ul>
                         <li><a href="home.php">Home</a></li>
                         <li><a href="venda.php">Venda</a></li>
-                        <li><a href="#">Sobre</a></li>
+                        <li><a href="sobre.php">Sobre</a></li>
                         <li><a href="#">Contato</a></li>
                     </ul>
                 </nav><!--menu-rodape-->
