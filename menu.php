@@ -16,7 +16,7 @@
         <header class="menu">
            <div class="container">
                 <div class="logo">
-                    <img src="IMG/logo_transparent.png" alt="logo">
+                    <a href="home.php"><img src="IMG/logo_transparent.png" alt="logo"></a>
                 </div><!--logo-->
 
                 <nav class="menu-desk">
@@ -32,12 +32,15 @@
                     <ul>
                         <li><a href="home.php">Home</a></li>
                         <li><a href="venda.php">Venda</a></li>
-                        <li><a href="#">Sobre</a></li>
+                        <li><a href="sobre.php">Sobre</a></li>
                         <li><a href="#">Contato</a></li>
                     </ul>
                 </nav><!--menu-mobile-->
            </div><!--container--> 
            <div class="clear"></div><!--clear-->
         </header><!--menu-->
+
+        <script src="JS/jquery.js"></script>
+        <script src="JS/functions.js"></script>
     </body>
 </html>
