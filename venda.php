@@ -46,7 +46,7 @@ include 'menu.php';
                                 </div><!--barra-preco-->
 
                                 <div class="valor-pesquisa">
-                                    <p>R$ 0,00</p>
+                                    <p class="preco_pesquisa">R$ 0,00</p>
                                     <p>R$ 50.000,00</p>
                                     <div class="clear"></div>
                                 </div><!--valor-pesquisa-->
