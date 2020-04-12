@@ -194,7 +194,43 @@ $(function(){
 
     }
 
+    var amtDepoimento = $('.depoimentos-single p').length;
+    var amtDepoimentoNome = $('.nome-depoimento').length;
+    var curIndexDepoimento = 0;
+
+    iniciarDepoimentos();
+    navegarDepoimento();
+
+    function navegarDepoimento(){
+        
+        $('[next]').click(function(){
+            
+            if (curIndexDepoimento < amtDepoimento-1) {
+                curIndexDepoimento++;
+                $('.depoimentos-single p').hide();
+                $('.depoimentos-single p').eq(curIndexDepoimento).show();
+                $('.nome-depoimento').hide();
+                $('.nome-depoimento').eq(curIndexDepoimento).show();
+            }
+        })
+
+        $('[prev]').click(function(){
+            if (curIndexDepoimento > 0) {
+                curIndexDepoimento--;
+                $('.depoimentos-single p').hide();
+                $('.depoimentos-single p').eq(curIndexDepoimento).show();
+                $('.nome-depoimento').hide();
+                $('.nome-depoimento').eq(curIndexDepoimento).show();
+            }
+        })
+    }
     
+    function iniciarDepoimentos(){
+        $('.depoimentos-single p').hide();
+        $('.depoimentos-single p').eq(0).show();
+        $('.nome-depoimento').hide();
+        $('.nome-depoimento').eq(0).show();
+    }
 
 
 })

@@ -102,13 +102,17 @@ include 'menu.php';
                         <h2>Depoimentos</h2>
                         <div class="depoimentos-single">
                             <p>"Ótimo atendimento, o site ficou pronto rapidamente e o suporte foi 100%"</p>
+                            <p>"Site perfeito e suporte maravilhoso"</p>
                             <div class="navigation">
                                 <div class="arrows">
-                                    <img src="IMG/play (1).png" alt="">
-                                    <img src="IMG/play.png" alt="">
+                                    <img prev src="IMG/play (1).png" alt="">
+                                    <img  next src="IMG/play.png" alt="">
                                 </div><!--arrows-->
                                 <div class="nome-depoimento">
                                     Carlos Augusto
+                                </div><!--nome-depoimento-->
+                                <div class="nome-depoimento">
+                                    Evangelista Torricelli
                                 </div><!--nome-depoimento-->
                             </div><!--navigation-->
                         </div><!--depoimentos-single-->
