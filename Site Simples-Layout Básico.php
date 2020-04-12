@@ -27,27 +27,32 @@ include 'menu.php';
 
             <div class="container">
                 
-
+                
                 <div class="info-site">
                     <div class="foto-destaque">
-                        <img src="IMG/site-simples-01.jpg" alt="">
-                        <div class="arrow-left"></div><!--arrow-left-->
-                        <div class="arrow-right"></div><!--arrow-right-->
+                            <div class="arrows"></div><!--arrows-->
+                                
+                            <div class="imagem"></div><!--imagem-->
                     </div><!--foto-destaque-->
-                
+                        <div class="arrows-nav">
+                            <div class="arrow-left"></div><!--arrow-left-->
+                            <div class="arrow-right"></div><!--arrow-right-->
+                        </div><!--arrows-nav-->
                     <div class="nav-galeria">
-                        <div class="arrow-left"></div><!--arrow-left-->
-                        <div class="arrow-right"></div><!--arrow-right-->
+                        
                         <div class="nav-galeria-wraper">
-                            <div class="mini-img"><img src="IMG/site-simples-01.jpg" alt=""></div><!--mini-img-->
-                            <div class="mini-img"><img src="IMG/SITE 01 FT03.png" alt=""></div><!--mini-img-->
-                            <div class="mini-img"><img src="IMG/SITE 01 FT04.png" alt=""></div><!--mini-img-->
-                            <div class="mini-img"><img src="IMG/SITE 01 FT05.png" alt=""></div><!--mini-img-->
+                            <div class="mini-img"><img class='img-img' src="IMG/site-simples-01.jpg" alt=""></div><!--mini-img-->
+                            <div class="mini-img"><img class='img-img' src="IMG/SITE 01 FT03.png" alt=""></div><!--mini-img-->
+                            <div class="mini-img"><img class='img-img' src="IMG/SITE 01 FT04.png" alt=""></div><!--mini-img-->
+                            <div class="mini-img"><img class='img-img' src="IMG/SITE 01 FT05.png" alt=""></div><!--mini-img-->
+            
                         </div><!--nav-galeria-wraper-->
                         
                     </div><!--navegacao-galeria-->
-                   
+                    
                 </div><!--info-site-->
+
+                
 
                 <div class="descricao-site">
                     <div class="descricao-site-2">

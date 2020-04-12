@@ -24,7 +24,7 @@
                         <li><a href="home.php">Home</a></li>
                         <li><a href="venda.php">Venda</a></li>
                         <li><a href="sobre.php">Sobre</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a goto="contato" href="">Contato</a></li>
                     </ul>
                 </nav><!--menu-desk-->
 
@@ -33,7 +33,7 @@
                         <li><a href="home.php">Home</a></li>
                         <li><a href="venda.php">Venda</a></li>
                         <li><a href="sobre.php">Sobre</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a goto="contato" href="">Contato</a></li>
                     </ul>
                 </nav><!--menu-mobile-->
            </div><!--container--> 

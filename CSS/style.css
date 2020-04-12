@@ -665,40 +665,35 @@ form{
 
 .nav-galeria{
     width: 100%;
-    padding: 15px 0;
-    margin-top: 15px;
     overflow: hidden;
-    height: 25%;
-    margin-top: -10px;
     margin-left: 0;
     height: 30%;
     position: relative;
+    margin-bottom: 20%;
 }
 
 .nav-galeria-wraper{
-    width: 200% ;
+    /*width: 400% ;*/
     overflow: hidden;
+    height: 100%;
 }
 
 .mini-img{
-    border: 4px solid rgba(0, 0, 0, 0.1);
     float: left;
-    padding-top: calc(((100% / 3) * (100 / 200)) * 0.6);
-    width: calc((100% / 3) * (100 / 200));
+    /*padding-top: calc(((100% / 3) * (100 / 200)) * 0.6 );*/
+    /*width: calc((100% / 3) * (100 / 333));*/
     position: relative;
+    height: 100%;
     cursor: pointer;
 }
 
 .mini-img img{
+    border: 4px solid rgba(0, 0, 0, 0.1);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-.mini-img:nth-of-type(1){
-    border-color: rgba(0, 0, 0, 0.3);
 }
 
 .descricao-site{
@@ -775,11 +770,11 @@ form{
     display: none;
 }
 
-.nav-galeria .arrow-left{
+ .arrows-nav .arrow-left{
     z-index: 99;
 	position: absolute;
 	left: 0;
-    top: 50%;
+    top: 87.5%;
     z-index: 99;
 	cursor: pointer;
 	transform:translateY(-50%);
@@ -793,11 +788,11 @@ form{
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.nav-galeria .arrow-right{
+ .arrows-nav .arrow-right{
     z-index: 99;
 	position: absolute;
 	right: 0;
-	top: 50%;
+	top: 87.5%;
 	cursor: pointer;
 	transform:translateY(-50%);
 	-ms-transform:translateY(-50%);

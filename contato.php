@@ -4,7 +4,7 @@
 
     <body>
 
-    <section class="contato">
+    <section id="contato" class="contato">
             <div class="line-titulo">
                 <div class="ln1"></div><!--ln1-->
                 <h2>Contato</h2>

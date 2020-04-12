@@ -148,5 +148,9 @@ include 'menu.php';
 </html>
 
 <?php
+            include 'contato.php';
+        ?>
+
+<?php
 include 'footer.php';
 ?>
